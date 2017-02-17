@@ -30,6 +30,7 @@ public class UserInterface extends JFrame implements ActionListener{
 		add(click);
 		add(textField);
 		add(enterURL);
+		setVisible(true);
 	}
 	
 	public void actionPerformed(ActionEvent e){
